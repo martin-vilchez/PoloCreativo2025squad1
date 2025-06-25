@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom fixed-top">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand" href="/">
+        <i class="bi bi-code-slash me-2"></i>Programadores
+      </a>
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar content -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">
+              <i class="bi bi-house-door me-1"></i>Inicio
+            </a>
+          </li>
+      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-list me-1"></i>Leguajes de programacion
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="categoriasDropdown">
+              <li><a class="dropdown-item" href="/categorias/python">Python</a></li>
+              <li><a class="dropdown-item" href="/categorias/javascript">JavaScript</a></li>
+              <li><a class="dropdown-item" href="/categorias/java">Java</a></li>
+              <li><a class="dropdown-item" href="/categorias/cpp">C++</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/modelos-ia">
+              <i class="bi bi-robot me-1"></i>Modelos de IA
+            </a>
+          </li>
+        </ul>
+        <!-- Search form -->
+        <form class="d-flex" role="search" action="/buscar" method="GET">
+          <div class="input-group">
+            <input class="form-control" type="search" placeholder="Buscar..." aria-label="Buscar" name="q">
+            <button class="btn btn-outline-light" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>

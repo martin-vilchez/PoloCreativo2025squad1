@@ -1,25 +1,17 @@
-/* Estilos base (modo claro) */
 body {
-  background-color: white;
-  color: black;
-  transition: background-color 0.3s, color 0.3s;
-}
+    background: white;
+    color: black;
+    transition: background 0.3s, color 0.3s;
+  }
 
-/* Estilos para modo oscuro */
-body.dark-mode {
-  background-color: #121212;
-  color: #f0f0f0;
-}
+  body.dark-mode {
+    background: #2d2c2c;
+    color: rgb(196, 196, 196);
+  }
 
-button.night {
-  padding: 8px 16px;
-  background-color: #333;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-body.dark-mode button.night {
-  background-color: #555;
-}
+.navbar-custom {
+      background: linear-gradient(to right, #0d48a167, #03c162); /* Gradiente de azul a verde/naranja */
+    }
+    .footer-custom{
+      background: linear-gradient(to right, #0d48a167, #03c162);
+    }  

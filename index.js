@@ -15,6 +15,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
   res.render('index');
 });
+app.get('/acercade', (req, res) => {
+  res.render('acercaDe'); // views/acercaDe.ejs
+});
 // Ruta para errores 404
 app.use((req, res) => {
   res.status(404).render('404');

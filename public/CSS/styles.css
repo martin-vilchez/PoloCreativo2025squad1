@@ -35,4 +35,8 @@ body {
     opacity: 1;
     pointer-events: auto;
   }
-
+.estilo{
+  font-size: 150%; 
+  font-style: italic;
+}
+    

@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: rgb(50, 48, 48);
     color: black;
     transition: background 0.3s, color 0.3s;
   }
@@ -10,10 +10,10 @@ body {
   }
 
 .navbar-custom {
-      background: linear-gradient(to right, #0d48a167, #03c162); /* Gradiente de azul a verde/naranja */
+      background: linear-gradient(to right, #044bb667, #a903d7); /* Gradiente de azul a verde/naranja */
     }
     .footer-custom{
-      background: linear-gradient(to right, #0d48a167, #03c162);
+      background: linear-gradient(to right, #044bb667, #a903d7);
     }  
 
 .titulo{
